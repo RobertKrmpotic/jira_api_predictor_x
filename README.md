@@ -1,6 +1,6 @@
 ### IMPORTANT
 
-Please add the original json file to jira_predictor_api/data and name it data.json
+Please add the original json file to jira_api_predictor/data and name it data.json
 (Github has 100mgb limit)
 
 ### About
