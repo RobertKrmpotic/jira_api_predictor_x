@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "jira_predictor_api"
+version = "0.1.0"
+description = ""
+authors = ["Robert Krmpotic"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+pandas = "^1.4.1"
+Flask = "^2.0.3"
+numpy = "^1.22.2"
+scipy = "^1.8.0"
+Flask-RESTful = "^0.3.9"
+Flask-SQLAlchemy = "^2.5.1"
+loguru = "^0.6.0"
+SQLAlchemy = "^1.4.31"
+sklearn = "^0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
