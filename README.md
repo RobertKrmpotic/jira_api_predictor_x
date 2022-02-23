@@ -1,3 +1,8 @@
+### IMPORTANT
+
+Please add the original json file to jira_predictor_api/data and name it data.json
+(Github has 100mgb limit)
+
 ### About
 
 This package includes a machine learning model which predicts completion time of a JIRA ticket.
