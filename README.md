@@ -1,3 +1,8 @@
+### IMPORTANT
+
+Please add the original json file to jira_predictor_api/data and name it data.json
+(Github has 100mgb limit)
+
 ### About
 
 This package includes a machine learning model which predicts completion time of a JIRA ticket.
@@ -46,13 +51,16 @@ http://localhost:8050/api/issue/AVRO-1/resolve_fake
 5. Use the endpoints:
 
 /api/issue/<issue_key>/resolve_fake
+  
 This is a basic call that runs a (fake) hardcoded resolution for a single issue.
 replace issue key with string corresponding to jira issue
 
 /api/issue/<issue_key>/resolve_prediction
+  
 This call returns a predicted 
 
 /api/release/<date provided>/resolved_since_now
+  
 date can be in iso format or YYYY-MM-DD for example:
 
 2015-10-01T11:25:13.635193
